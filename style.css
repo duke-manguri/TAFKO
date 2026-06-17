@@ -60,6 +60,15 @@ body {
     box-shadow: 5px 5px 10px black;
 }
 
+#neButton {
+    position: absolute;
+    left: 30px;
+    top: 250px;
+    background-color: #12b7ce;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+
 #closeButton {
     position: absolute;
 	left: 100px;
