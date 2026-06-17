@@ -2,6 +2,7 @@ let greatRatejs = 0;
 let goodRatejs = 0;
 let boringRatejs = 0;
 let disgustingRatejs = 0;
+let nggakEnakRatejs = 0;
 
 function rater() {
     document.querySelector('#raterTab').style.display = 'block';
@@ -38,4 +39,9 @@ function boringRate() {
 function disg() {
 	disgustingRatejs += 1;
 	document.querySelector('#NumberOfRated').innerText = disgustingRatejs;
+}
+
+function NE() {
+	nggakEnakRatejs += 1;
+	document.querySelector('#NumberOfRatene').innerText = disgustingRatejs;
 }
