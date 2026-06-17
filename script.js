@@ -10,6 +10,7 @@ function rater() {
     document.querySelector('#good').style.display = 'block';
     document.querySelector('#boring').style.display = 'block';
 	document.querySelector('#disgu').style.display = 'block';
+	document.querySelector('#ner').style.display = 'block';
 }
 
 // Renamed from close() to avoid conflict with window.close()
@@ -19,6 +20,7 @@ function closeTab() {
     document.querySelector('#good').style.display = 'none';
     document.querySelector('#boring').style.display = 'none';
 	document.querySelector('#disgu').style.display = 'none';
+	document.querySelector('#ner').style.display = 'none';
 }
 
 function greatRate() {
