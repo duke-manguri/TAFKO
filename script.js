@@ -41,7 +41,7 @@ function disg() {
 	document.querySelector('#NumberOfRated').innerText = disgustingRatejs;
 }
 
-function NE() {
+function NEF() {
 	nggakEnakRatejs += 1;
 	document.querySelector('#NumberOfRatene').innerText = disgustingRatejs;
 }
