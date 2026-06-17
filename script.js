@@ -45,5 +45,5 @@ function disg() {
 
 function NEF() {
 	nggakEnakRatejs += 1;
-	document.querySelector('#NumberOfRatene').innerText = disgustingRatejs;
+	document.querySelector('#NumberOfRatene').innerText = nggakEnakRatejs;
 }
